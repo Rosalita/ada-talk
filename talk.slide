@@ -21,50 +21,81 @@ Tweet: @Rosicadia
 
 * PyPortal
 
-.image /img/adabox_pyportal.jpg
+.image /img/adabox_pyportalb.jpg
 
 * Assembled and turned on
 
-.image /img/adaquote.jpg
+.image /img/adaquoteb.jpg
 
-* adaquote
+* Adaquote
 
-.code /code/code.py
+.image /img/quotecode.jpg
 
-* How to kill a PyPortal
+* How to Kill a PyPortal
 
 Save the code then pull the cable while it is restarting
 
+.image /img/tombstones.png
+
+* How to Resurrect a PyPortal
+
+doubleclick the reset button to get to portal boot
+
+Then download and put a .uf2 file on it to wipe it
+
+Then install circuit python again
+
+Then Connect to PyPortal via linux terminal
+ls /dev/ttyACM*
+will output the boards name e.g.
+/dev/ttyACM0
+
+Then use screen to connect to it
+sudo screen /dev/ttyACM0 115200
+
+To completely erase the board 
+>>> import storage
+>>> storage.erase_filesystem()
+
 * Temperature Sensor
 
-.image /img/badTemp.jpg
+.image /img/badTempb.jpg
 
-* All the data from open weather API
+* Temperature IoT tracking
 
-.image /img/sunrise.jpg
+.image /img/iotb.jpg
 
-* Then one day I turned it on and...
+* Open weather API
 
-.image /img/indexError.jpg
+.image /img/sunriseb.jpg
 
-* Currently been working for a while
+* The Next Day I Turned it on and...
 
-.image /img/canada.jpg
+.image /img/indexErrorb.jpg
 
-* verdict on PyPortal
+* Need to Keep an Eye on it for a While to Squish Bugs
 
-Needs power, I used it connected to USB could be powered by a battery
+.image /img/bugsb.jpg
 
+* Verdict on PyPortal
 
-* Adafruit LEDS
+Needs power, works well connected to a desktop PC
 
-.image /img/necklace1b.jpg
+The temperature sensor is rather rubbish
+
+It also has a light sensor on it so you can wave at it to wake it up
+
+It's fast to change code 
+
+Lots of sample code and projects available online
+
+Definitely worth getting if have any interest in learning/writing Python code
 
 * What else can I make?
 
 .image /img/necklace2b.jpg
 
-* My girlfriends got very excited
+* Some of my friends got very excited!
 
 .image /img/necklace3b.png
 
@@ -72,7 +103,7 @@ Needs power, I used it connected to USB could be powered by a battery
 
 .image /img/necklace4b.jpg
 
-* Arrived 21st June 2019
+* My Second Adabox arrived 21st June 2019
 
 .image /img/box1b.jpg
 
@@ -82,7 +113,7 @@ Needs power, I used it connected to USB could be powered by a battery
 * Well packaged, felt like a present
 .image /img/box3b.jpg
 
-* Contained some kind portable gaming device!!
+* Contained Some Kind of Portable Gaming Device!!
 .image /img/box4b.jpg
 
 * This was very exciting because...
@@ -91,16 +122,27 @@ Needs power, I used it connected to USB could be powered by a battery
 * Turning it on
 .image /img/turnonb.jpg
 
-* Killed it within 5 minutes (oops!)
+* How to Kill a PyGamer
 .image /img/killedb.jpg
 
-* Connected to a a computer 
+* How to Resurect a PyGamer
 .image /img/connectedb.jpg
 
-* Make Code Arcade has games ;)
+* Make Code Arcade
 .image /img/makecodearcadeb.jpg
 
 * Export as .UF2 then Drag and drop
 .image /img/downloadedb.jpg
+
+* Slides For This Talk
+
+Available on my Github:
+https://github.com/Rosalita/ada-talk
+
+Created using Go 
+
+Present package 
+https://godoc.org/golang.org/x/tools/present
+
 
 
