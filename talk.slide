@@ -19,6 +19,43 @@ Tweet: @Rosicadia
 
 .image /img/adalogo.png
 
+* PyPortal
+
+.image /img/adabox_pyportal.jpg
+
+* Assembled and turned on
+
+.image /img/adaquote.jpg
+
+* adaquote
+
+.code /code/code.py
+
+* How to kill a PyPortal
+
+Save the code then pull the cable while it is restarting
+
+* Temperature Sensor
+
+.image /img/badTemp.jpg
+
+* All the data from open weather API
+
+.image /img/sunrise.jpg
+
+* Then one day I turned it on and...
+
+.image /img/indexError.jpg
+
+* Currently been working for a while
+
+.image /img/canada.jpg
+
+* verdict on PyPortal
+
+Needs power, I used it connected to USB could be powered by a battery
+
+
 * Adafruit LEDS
 
 .image /img/necklace1b.jpg
